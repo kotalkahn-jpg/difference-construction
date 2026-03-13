@@ -33,7 +33,7 @@ export default async function AdminDashboard() {
             Total Products
           </h3>
 
-          <p className="text-4xl font-bold text-[var(--primary)]">
+          <p className="text-4xl font-bold text-green-500">
             {productsCount ?? 0}
           </p>
 
@@ -48,7 +48,7 @@ export default async function AdminDashboard() {
             Blog Articles
           </h3>
 
-          <p className="text-4xl font-bold text-[var(--primary)]">
+          <p className="text-4xl font-bold text-green-500">
             {blogCount ?? 0}
           </p>
 
@@ -63,7 +63,7 @@ export default async function AdminDashboard() {
             Customer Messages
           </h3>
 
-          <p className="text-4xl font-bold text-[var(--primary)]">
+          <p className="text-4xl font-bold text-green-500">
             {messagesCount ?? 0}
           </p>
 
